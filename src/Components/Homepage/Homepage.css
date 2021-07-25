@@ -1,0 +1,11 @@
+.Homepage {
+  background: linear-gradient(180deg, #ddceff 0%, #ddceff 0.01%, #f8dff0 100%);
+  width: 100vw;
+  overflow: hidden;
+  /* border: 2px solid red; */
+}
+
+.news-events {
+  border: 2px solid green;
+  width: fit-content;
+}
