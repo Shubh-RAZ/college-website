@@ -1,0 +1,230 @@
+.announcement {
+  height: 700px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 50px;
+}
+.announcement-box {
+  height: 100%;
+  background: radial-gradient(
+    99.13% 210.34% at 0% 0%,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  /* filter: blur(4px); */
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.announcement-heading-box {
+  height: 350px;
+  text-align: left;
+}
+
+.announcement-heading {
+  font-family: Red Hat Text;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: 0.05em;
+  color: #171717;
+  margin-bottom: 20px;
+}
+
+.announcement-content {
+  letter-spacing: 3px;
+  font-size: 20px;
+  /* border: 2px solid rgba(23, 23, 23, 0.3);
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  padding-bottom: 70px; */
+}
+
+.announcement-list-box {
+  display: flex;
+  /* padding-left: 20px; */
+  padding-right: 20px;
+  justify-content: space-between;
+  overflow-x: scroll;
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV";
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.announcement-list-box::-webkit-scrollbar {
+  height: 5px;
+  cursor: pointer;
+}
+
+.announcement-list-box::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.announcement-list-box::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    rgba(185, 128, 240, 0.5) 100%,
+    rgba(255, 255, 255, 0.015) 100%
+  );
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.announcement-list {
+  min-width: 30%;
+  max-width: 30%;
+  background: radial-gradient(
+      104.28% 97.54% at 0% 2.46%,
+      rgba(255, 255, 255, 0.42) 0%,
+      rgba(255, 255, 255, 0.35) 100%
+    ),
+    rgba(255, 255, 255, 0.16);
+  /* filter: blur(5px); */
+  border-radius: 10px;
+  margin-right: 50px;
+  height: 200px;
+  padding-top: 20px;
+  padding-left: 20px;
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV";
+  text-align: left;
+  padding-right: 20px;
+}
+
+.announcement-list-heading {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border: 2px solid #171717;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  padding-bottom: 20px;
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+.announcement-list-svg {
+  position: absolute;
+  right: 0;
+}
+
+.announcement-list-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 42px;
+  letter-spacing: 0.05em;
+  color: #171717;
+}
+
+.announcement-list-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.announcement-list:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 1200px) {
+  .announcement-list {
+    max-width: 45%;
+    min-width: 45%;
+  }
+
+  .announcement-heading {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 850px) {
+  .announcement-list {
+    max-width: 75%;
+    min-width: 75%;
+  }
+
+  .announcement-heading {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .announcement-content {
+    overflow: scroll;
+    height: 250px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .announcement {
+    height: 550px;
+  }
+
+  .announcement-heading-box {
+    height: 250px;
+  }
+  .announcement-content {
+    overflow: scroll;
+    height: 150px;
+    font-size: 16px;
+  }
+  .announcement-list {
+    max-width: 80%;
+    min-width: 80%;
+  }
+  .announcement-heading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .announcement-list-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 555px) {
+  .announcement-heading {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .announcement-content {
+    font-size: 14px;
+  }
+  .announcement {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .announcement-list {
+    max-width: 90%;
+    min-width: 90%;
+  }
+
+  .announcement-list-title {
+    font-size: 16px;
+  }
+
+  .announcement-list-content {
+    font-size: 14px;
+  }
+}

@@ -1,4 +1,120 @@
 .news {
-  width: 90vw;
-  border: 2px solid red;
+  width: 100vw;
+  /* border: 2px solid red; */
+  padding-left: 50px;
+  text-align: left;
+}
+
+.news-heading {
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 65px;
+  line-height: 95px;
+  color: #171717;
+  margin-bottom: 50px;
+}
+
+.news-list {
+  width: 70%;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: radial-gradient(
+    100% 1906.56% at 0% 7.25%,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.news-date {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #b980f0;
+  margin-bottom: 5px;
+}
+
+.news-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #171717;
+  margin-bottom: 5px;
+}
+
+.news-content {
+  letter-spacing: 2px;
+}
+
+@media (max-width: 800px) {
+  .news-heading {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .news-list {
+    width: 85%;
+    /* border: 2px solid red; */
+  }
+}
+
+@media (max-width: 630px) {
+  .news-heading {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .news-content {
+    height: 110px;
+    overflow-y: scroll;
+  }
+}
+
+@media (max-width: 555px) {
+  .news {
+    padding-left: 25px;
+  }
+
+  .news-date {
+    font-size: 16px;
+  }
+
+  .news-title {
+    font-size: 16px;
+  }
+
+  .news-content {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .news-heading {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: bold;
+  }
+
+  .news-content {
+    height: 70px;
+    letter-spacing: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  .news-heading {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .news-list {
+    width: 80%;
+  }
 }
