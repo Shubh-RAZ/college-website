@@ -12,6 +12,10 @@
   align-items: center;
 }
 
+.course-heading-right {
+  display: none;
+}
+
 .course-head-1 {
   font-family: Red Hat Text;
   font-style: normal;
