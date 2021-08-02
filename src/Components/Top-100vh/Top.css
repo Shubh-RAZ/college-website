@@ -1,11 +1,12 @@
 .active-index {
   width: 30%;
   height: 5px;
-  background: #b980f0;
+  background: #ee5332;
   /* filter: blur(1px); */
   /* transform: matrix(1, 0, 0, -1, 0, 0); */
   margin-right: 20px;
   cursor: pointer;
+  opacity: 0.9;
 }
 
 .bottom-comma-svg {

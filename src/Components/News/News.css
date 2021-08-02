@@ -35,7 +35,8 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 28px;
-  color: #b980f0;
+  /* color: #b980f0; */
+  color: #ee5332;
   margin-bottom: 5px;
 }
 
@@ -74,6 +75,11 @@
   .news-content {
     height: 110px;
     overflow-y: scroll;
+  }
+
+  .news-content::-webkit-scrollbar {
+    width: 0;
+    display: none;
   }
 }
 

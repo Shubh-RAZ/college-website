@@ -1,0 +1,175 @@
+.footer-whole {
+  height: 60vh;
+  background: lightgrey;
+  /* background: black; */
+  position: relative;
+}
+
+.footer-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.svg-books {
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  right: 5px;
+  bottom: -100px;
+  /* border: 2px solid red; */
+}
+.content-footer {
+  width: 90%;
+  height: 60vh;
+  position: absolute;
+  top: 0;
+  display: grid;
+  align-items: center;
+}
+
+.row-footer {
+  display: flex;
+  font-size: 30px;
+  color: black;
+  padding-left: 50px;
+}
+
+.footer-inside-cnt {
+  height: 250px;
+  display: grid;
+}
+.footer-list {
+  display: grid;
+  align-items: center;
+  padding-left: 10px;
+  width: 350px;
+  padding-right: 50px;
+  transform: border 2s;
+  text-align: left;
+  font-family: Red Hat Display;
+  letter-spacing: 3px;
+  display: flex;
+}
+
+.footer-list:hover {
+  cursor: pointer;
+}
+
+.cont-foot {
+  width: fit-content;
+  padding-right: 20px;
+  border-image-width: 0;
+  transition: all 10s;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.footer-list-lg {
+  display: flex;
+  font-family: Red Hat Display;
+}
+
+.footer-list-sm {
+  display: none;
+}
+
+.row-footer-sm {
+  display: none;
+}
+/* .ln{
+    width: 0%;
+    height: 2px;
+    background: white;
+    position: relative;
+    bottom: 10px;
+    transition: all 2s
+} */
+
+@media (max-width: 1010px) {
+  .footer-list {
+    font-size: 20px;
+    width: 300px;
+  }
+
+  .cont-foot {
+    font-size: 20px;
+  }
+}
+@media (max-width: 880px) {
+  .footer-list {
+    font-size: 18px;
+    width: 250px;
+    /* border: 2px solid red; */
+  }
+
+  .cont-foot {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer-list-lg {
+    display: none;
+  }
+
+  .footer-list-sm {
+    display: flex;
+  }
+
+  .cont-foot {
+    font-size: 18px;
+  }
+
+  .row-footer-sm {
+    display: flex;
+    padding-left: 50px;
+    color: black;
+  }
+}
+
+@media (max-width: 526px) {
+  .row-footer {
+    padding-left: 20px;
+  }
+
+  .row-footer-sm {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .row-footer {
+    padding-left: 20px;
+  }
+
+  .cont-foot {
+    font-size: 16px;
+  }
+
+  .row-footer-sm {
+    padding-left: 20px;
+  }
+
+  .footer-list {
+    font-size: 15px;
+    width: 215px;
+  }
+}
+@media (max-width: 410px) {
+  .row-footer {
+    padding-left: 15px;
+  }
+
+  .cont-foot {
+    font-size: 15px;
+  }
+
+  .row-footer-sm {
+    padding-left: 15px;
+  }
+
+  .footer-list {
+    font-size: 12px;
+    width: 200px;
+  }
+}
