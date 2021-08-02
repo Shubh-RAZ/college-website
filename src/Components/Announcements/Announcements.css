@@ -213,6 +213,16 @@
     line-height: 30px;
   }
 
+  .announcement-list-box::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+      180deg,
+      rgba(185, 128, 240, 0.5) 100%,
+      rgba(255, 255, 255, 0.015) 100%
+    );
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
   .announcement-content {
     font-size: 14px;
   }

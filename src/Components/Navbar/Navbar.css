@@ -85,6 +85,7 @@
     position: fixed;
     display: flex;
     align-items: center;
+    padding-top: 10vh;
   }
 
   .hidden-menu {

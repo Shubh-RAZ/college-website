@@ -6,7 +6,7 @@ const Navbar = (props) => {
 
     const primary = "#808080"
     const active = "#ee5332"
-    const ham = "#ee5332"
+    const ham = "#b980f0"
 
     const [ showPhoneMenu , setPhoneMenu ] = useState(false)
     return ( 

@@ -193,6 +193,10 @@
   .pagination-content-box {
     margin-top: 5vh;
   }
+
+  .active-index {
+    background: #b980f0;
+  }
 }
 
 @media (max-width: 450px) {

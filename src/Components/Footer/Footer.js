@@ -62,7 +62,7 @@ const { x , y , movementX , movementY } = useMouse()
                 <Link to="/" style={{textDecoration:'none' , color:'black'}}>        <div className="cont-foot"> Home</div> </Link>
                 </div>
                 <div className="footer-list">
-                <Link to="/about" style={{textDecoration:'none' , color:'black'}}>       <div className="cont-foot"> About us</div> </Link>
+                <Link to="/about" style={{textDecoration:'none' , color:'black'}}>       <div className="cont-foot"> Academics</div> </Link>
                 </div>
             </div>
         </div>
@@ -78,15 +78,15 @@ const { x , y , movementX , movementY } = useMouse()
 
                     <div className="footer-list">
                 <Link to="/market" style={{textDecoration:'none' , color:'black'}}>
-                    <div className="cont-foot"> Market expertise</div></Link>
+                    <div className="cont-foot"> Facilities</div></Link>
                 </div>
         </div>
         <div className="footer-list-sm">
                 <div className="footer-list">
-                <Link to="/contact" style={{textDecoration:'none' , color:'black'}}>       <div className="cont-foot"> Contact Us</div> </Link>
+                <Link to="/contact" style={{textDecoration:'none' , color:'black'}}>       <div className="cont-foot"> profile</div> </Link>
                 </div>
                 <div className="footer-list">
-                <Link to="/map"  style={{textDecoration:'none' , color:'black'}}>        <div className="cont-foot"> Maps</div> </Link>
+                <Link to="/map"  style={{textDecoration:'none' , color:'black'}}>        <div className="cont-foot"> Courses</div> </Link>
                 </div>
             </div>
         </div>
@@ -94,12 +94,12 @@ const { x , y , movementX , movementY } = useMouse()
             <div className="footer-list-lg">
 
                 <div className="footer-list">
-                <Link to="/map"  style={{textDecoration:'none' , color:'black'}}>          <div className="cont-foot"> Maps</div> </Link>
+                <Link to="/map"  style={{textDecoration:'none' , color:'black'}}>          <div className="cont-foot"> Faculty</div> </Link>
                 </div>
 
                 <div className="footer-list">
                 <Link to="/offices" style={{textDecoration:'none' , color:'black'}}>
-                    <div className="cont-foot"> Our offices</div></Link>
+                    <div className="cont-foot"> Admission Procedure</div></Link>
                 </div>
 
              
@@ -108,22 +108,22 @@ const { x , y , movementX , movementY } = useMouse()
 
             <div className="footer-list-sm">
                 <div className="footer-list">
-                <Link to="/projects" style={{textDecoration:'none' , color:'black'}}>         <div className="cont-foot"> Projects</div> </Link>
+                <Link to="/projects" style={{textDecoration:'none' , color:'black'}}>         <div className="cont-foot"> Faculty </div> </Link>
                 </div>
                 <div className="footer-list">
                 <Link to="/market" style={{textDecoration:'none' , color:'black'}}>
-                    <div className="cont-foot"> Market expertise</div></Link>
+                    <div className="cont-foot"> Facilities</div></Link>
                 </div>
             </div>
         </div>
         <div className="row-footer-sm">
             <div className="footer-list">
-            <Link to="/ethics" style={{textDecoration:'none' , color:'black'}}><div className="cont-foot"> Vision & Values</div></Link>
+            <Link to="/ethics" style={{textDecoration:'none' , color:'black'}}><div className="cont-foot"> Fee Structure</div></Link>
                     
             </div>
             <div className="footer-list">
             <Link to="/offices" style={{textDecoration:'none' , color:'black'}}>
-                    <div className="cont-foot"> Our Offices</div></Link>
+                    <div className="cont-foot"> Admission Procedure</div></Link>
             </div>
         </div>
      

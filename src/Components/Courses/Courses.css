@@ -254,6 +254,18 @@
     padding-left: 25px;
     padding-right: 25px;
   }
+
+  .course-box::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+      180deg,
+      rgba(185, 128, 240, 0.5) 100%,
+      rgba(255, 255, 255, 0.015) 100%
+    );
+    border-radius: 5px;
+  }
+  
+
+
 }
 
 @media (max-width: 400px) {
