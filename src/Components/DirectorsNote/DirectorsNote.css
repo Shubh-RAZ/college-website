@@ -1,0 +1,121 @@
+.directorsnote {
+  padding-left: 50px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.note-heading {
+  font-family: Red Hat Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 65px;
+  line-height: 95px;
+  color: #171717;
+  margin-bottom: 50px;
+}
+
+.directors-img img {
+  width: 500px;
+  height: 600px;
+}
+
+.inside-directors-note {
+  display: flex;
+  /* border: 2px solid red; */
+  align-items: center;
+}
+
+.director-note {
+  display: grid;
+  align-items: center;
+  width: 700px;
+  margin: auto;
+  /* border: 2px solid green; */
+}
+
+.directors-message {
+  letter-spacing: 2px;
+}
+
+.directors-signature {
+  margin-top: 50px;
+}
+.directors-signature-img {
+  width: 100px;
+  height: 50px;
+}
+
+.directors-signature img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1300px) {
+  .directors-img img {
+    width: 400px;
+    height: 100%;
+  }
+
+  .director-note {
+    width: 600px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .inside-directors-note {
+    display: grid;
+  }
+
+  .directorsnote {
+    text-align: center;
+  }
+
+  .directors-img {
+    margin: auto;
+  }
+  .directors-img img {
+    margin: auto;
+    width: 600px;
+    height: 600px;
+  }
+
+  .director-note {
+    width: 90%;
+    margin-top: 50px;
+  }
+
+  .directors-signature-img {
+    margin: auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .directorsnote {
+    padding-left: 0;
+  }
+  .note-heading {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .directors-message {
+    font-size: 14px;
+    height: 400px;
+    overflow: scroll;
+  }
+
+  .directors-img {
+    margin: auto;
+  }
+  .directors-img img {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .directors-img img {
+    width: 300px;
+    height: 300px;
+  }
+}
