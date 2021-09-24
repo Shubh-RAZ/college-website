@@ -47,17 +47,23 @@ const Top_100vh = () => {
                         <SwipeableViews index={index} onChangeIndex={handleChangeIndex}>
                         <div className="pagination-content-box">
                             <div className="pagination-heading">Campus</div>
-                            <div className="pagination-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+                            <div className="pagination-content">We give priority to the great ideas coming from all sides, I am with 'Awadh Vihar'.I welcome you to the College of Karmanparu, Ballia. It is an organization that deals with high standards and will meet all the standards.This teaching institute with its concern for quality teaching as well as for all round development of students. </div>
                         </div>
                      
                         <div className="pagination-content-box">
                             <div className="pagination-heading">Campus</div>
-                            <div className="pagination-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+                            <div className="pagination-content">Situated in a lush green, unspoiled, sunny environment, this college has a well-equipped, qualified, experienced lecturer and well-equipped laboratory in our organization. It is equipped
+                            with computer and playing facilities with huge study and internet facility. The vehicle will be given.
+                            We will provide a platform to the students to achieve not only education but also co-workers and
+                            excellence in education. </div>
                         </div>
                      
                         <div className="pagination-content-box">
                             <div className="pagination-heading">Campus</div>
-                            <div className="pagination-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+                            <div className="pagination-content"> We invite everyone open to new ideas and suggestions that can connect students and students in
+our college on an £-based basis. I welcome young students and wish them success as a responsible
+and valuable citizen. I can't believe that if you stay and study in our college, it's always worth the
+money for you. </div>
                         </div>
                      
                         </SwipeableViews>
