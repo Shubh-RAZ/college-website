@@ -1,0 +1,115 @@
+.contact_wrapper{
+    width: auto;
+    padding-top: 2vh;
+}
+
+.form-input-contact{
+    padding : 0px;
+}
+
+.Contactdetails{
+    margin-top: 6%;
+}
+
+.questions{
+    padding: 7px;
+    background-color: lightblue;
+}
+
+.answers{
+    padding: 7px;
+    background-color: lightgreen;
+}
+
+.contact_pic{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-left: -50px;
+}
+
+.faq_pic{
+    width: 100%;
+    margin-top: 110px;
+    margin-left: -50px;
+}
+
+.head1cu{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.head2cu{
+    font-size: 30px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid blue;
+}
+
+.faq_wrapper{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.contactHead{
+    font-size: 25px;
+}
+
+.admhead{
+    font-size: 25px;
+}
+
+.form-start{
+    padding-top: 20px;
+}
+
+.switch{
+    float: right;
+}
+
+@media (max-width: 600px) {
+    .faq_pic{
+      display: none;
+    }
+
+    .head1cu{
+        font-size: 30px
+    }
+
+    .head2cu{
+        font-size: 20px;
+    }
+
+    .contact_wrapper, .contact_wrapper2{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .faq_wrapper{
+        font-size: 20px;
+        margin-top: 20px;
+        padding-top: 30px;
+        border-top: 2px solid blue;
+    }
+
+    .contactHead{
+        font-size: 20px;
+    }
+
+    .admhead{
+        font-size: 20px;
+    }
+
+    .contact_pic{
+        margin-bottom: 10px;
+        margin-left: -10%;
+    }
+    
+    .Contactdetails{
+        margin-left: 8%;
+    }
+
+    .form-start{
+        border-top: 2px solid blue;
+    }
+  }
+
