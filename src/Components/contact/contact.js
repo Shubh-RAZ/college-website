@@ -1,4 +1,8 @@
 import React, { useState } from 'react'
+import axios from 'axios';
+import { ToastContainer } from 'react-toastify'
+import '../../../node_modules/react-toastify/dist/ReactToastify.css'
+import { toast } from 'react-toastify'
 import contactUS from './contactusImg.png'
 import FAQ from './faq.png'
 import './contact.css';
@@ -43,18 +47,26 @@ const Contact = () => {
                 msg_ : msg,
             };
 
-            // make axios request
-
-            setName('');
-            setEmail('');
-            setPhone('');
-            setSub('');
-            setMsg('');
+            
+            axios.post('http://localhost:7000/services/enqMail' ,data)
+            .then((res) => {
+                toast(`you will be contacted soon`);
+                setName('');
+                setEmail('');
+                setPhone('');
+                setSub('');
+                setMsg('');
+            })
+            .catch((error) => {
+                toast(`enquiry failed please try again`);
+                console.log(error);
+            })
         }
     }
 
     return ( 
         <React.Fragment>
+            <ToastContainer></ToastContainer>
             <div className="container">
                 <div className="row contact_wrapper">
 

@@ -1,4 +1,8 @@
 import React, { useState } from 'react'
+import axios from 'axios';
+import { ToastContainer } from 'react-toastify'
+import '../../../node_modules/react-toastify/dist/ReactToastify.css'
+import { toast } from 'react-toastify'
 import adm from './admBck.png'
 import './form.css'
 
@@ -11,7 +15,7 @@ const Form = () => {
     const [address, setAddress] = useState('')
     const [gender, setGender] = useState('')
     const [subject, setSubject] = useState('')
-    // dob
+    const [dob, setDob] = useState('')
 
 
     const handleChange = (e) => {
@@ -23,11 +27,37 @@ const Form = () => {
         if(field == 'phone')setPhone(e.currentTarget.value)
         if(field == 'subject')setSubject(e.currentTarget.value)
         if(field == 'gender')setGender(e.currentTarget.value)
-        //dob
+        if(field == 'dob')setDob(e.currentTarget.value)
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        const data = {
+            name_ : name,
+            fname_ : fname,
+            mname_ : mname,
+            phone_ : phone,
+            address_ : address,
+            gender_ : gender,
+            subject_ : subject,
+            dob_ : dob,
+        }
+
+
+        axios.post('http://localhost:7000/services/admMail' ,data)
+            .then((res) => {
+                toast(`you will be contacted soon`);
+            })
+            .catch((error) => {
+                toast(`form failed please try again`);
+                console.log(error);
+            })
     }
 
     return ( 
         <React.Fragment>
+            <ToastContainer></ToastContainer>
             <div className="container-fluid form-super">
                 <img src={adm} className="bck-form" />
                 <div className="col-12 form-head">Admission Form 2021-22</div>
@@ -70,7 +100,7 @@ const Form = () => {
                     <div className="col-md-6 col-12 form-input-adm">
                         <div class="form-group">
                             <label for="subject_">Subject</label>
-                            <input type="text" class="form-control" id="subject_" placeholder="Subject"  onChange={handleChange} name="name"/>
+                            <input type="text" class="form-control" id="subject_" placeholder="Subject"  onChange={handleChange} name="subject"/>
                         </div>
                     </div>
 
@@ -89,7 +119,7 @@ const Form = () => {
                     </div>
 
                     <div className="col-md-6 offset-md-3">
-                        <button className="btn send-form">Send</button>
+                        <button className="btn send-form" onClick={handleSubmit}>Send</button>
                     </div>
 
                 </div>
