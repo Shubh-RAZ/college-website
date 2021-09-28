@@ -25,7 +25,7 @@ const Homepage = () => {
             <News></News>
             <Important_Links></Important_Links>
             <Courses></Courses>
-            <Announcement></Announcement>
+            {/* <Announcement></Announcement> */}
             {/* <Campus_life></Campus_life> */}
             <div className="home-footer">
                 <Footer></Footer>

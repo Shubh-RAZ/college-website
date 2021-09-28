@@ -21,6 +21,7 @@
   color: #171717;
   margin-bottom: 5px;
   text-transform: uppercase;
+  overflow: hidden;
 }
 
 .link-box:nth-child(2n) {

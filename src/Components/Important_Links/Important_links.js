@@ -14,43 +14,34 @@ const Important_Links = () => {
     const [ notificationArray  , setNotificationArray ] = useState(
         [
             {
-                title:'College 1',
-                link:'www.google.com'
+                title:'Our History',
+                link:'/history'
             },
             {
-                title:'College 2',
-                link:'www.youtube.com'
+                title:"Principal's note",
+                link:'/principalsnote'
             },
             {
-                title:'College 3',
-                link:'www.yahoo.com'
+                title:'Our Purpose',
+                link:'/purpose'
             },
             {
-                title:'College 4',
-                link:'www.yahoo.com'
+              title:'Library Instructions',
+              link:'/libraryinstructions'
+          },
+            {
+                title:'our guidlines',
+                link:'/guidlines'
             },
             {
-                title:'College 5',
-                link:'www.google.com'
+                title:'Admission norms',
+                link:'/admissionnorms'
             },
             {
-                title:'College 6',
-                link:'www.youtube.com'
+                title:'Disciplinary Rules',
+                link:'/disciplinaryrules'
             },
-            {
-                title:'College 7',
-                link:'www.yahoo.com'
-            },
-            {
-                title:'College 8',
-                link:'www.yahoo.com'
-            },
-    
-            {
-                title:'College 9',
-                link:'www.yahoo.com'
-            },
-    
+         
 
         ]
     )
@@ -110,7 +101,9 @@ function slideRenderer(params) {
             {
                 slicedArray.map(dt => (
                     <div className="link-box">
-                    <Link style={{textDecoration:'none',color:'black'}}to={dt.link}> {dt.title}</Link>
+                    <Link style={{textDecoration:'none',color:'black'}}to={dt.link}>
+                   {dt.title}
+                    </Link>
                 </div>
     ))
             }
@@ -143,7 +136,8 @@ function slideRenderer2(params) {
               {
                   slicedArraysm.map(dt => (
                       <div className="link-box">
-                      <Link style={{textDecoration:'none',color:'black'}}to={dt.link}> {dt.title}</Link>
+                      <Link style={{textDecoration:'none',color:'black'}}to={dt.link}>{dt.title}
+                      </Link>
                   </div>
       ))
               }
