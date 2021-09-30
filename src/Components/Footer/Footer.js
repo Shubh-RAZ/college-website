@@ -50,11 +50,11 @@ const { x , y , movementX , movementY } = useMouse()
            
             </div>
             <div className="footer-list">
-         <Link to="/about" style={{textDecoration:'none' , color:'black'}}>   <div className="cont-foot" style={{textDecoration:'none' , color:'black'}} > Academics</div> </Link>
+         <Link to="/admissioncontact" style={{textDecoration:'none' , color:'black'}}>   <div className="cont-foot" style={{textDecoration:'none' , color:'black'}} > Academics</div> </Link>
          
             </div>
             <div className="footer-list">
-            <Link to="/contact" style={{textDecoration:'none' , color:'black'}}>  <div className="cont-foot"> Profile</div> </Link>
+            <Link to="/admissioncontact" style={{textDecoration:'none' , color:'black'}}>  <div className="cont-foot"> Profile</div> </Link>
             </div>
             </div>
             <div className="footer-list-sm">
@@ -62,31 +62,31 @@ const { x , y , movementX , movementY } = useMouse()
                 <Link to="/" style={{textDecoration:'none' , color:'black'}}>        <div className="cont-foot"> Home</div> </Link>
                 </div>
                 <div className="footer-list">
-                <Link to="/about" style={{textDecoration:'none' , color:'black'}}>       <div className="cont-foot"> Academics</div> </Link>
+                <Link to="/admissioncontact" style={{textDecoration:'none' , color:'black'}}>       <div className="cont-foot"> Academics</div> </Link>
                 </div>
             </div>
         </div>
         <div className="row-footer">
             <div className="footer-list-lg">
                 <div className="footer-list">
-                <Link to="/projects" style={{textDecoration:'none' , color:'black'}}>      <div className="cont-foot"> Courses</div> </Link>
+                <Link to="/admissioncontact" style={{textDecoration:'none' , color:'black'}}>      <div className="cont-foot"> Courses</div> </Link>
                     </div>
                 <div className="footer-list">
-                <Link to="/ethics" style={{textDecoration:'none' , color:'black'}}><div className="cont-foot">Fee Structure</div></Link>
+                <Link to="/admissioncontact" style={{textDecoration:'none' , color:'black'}}><div className="cont-foot">Fee Structure</div></Link>
                 
                     </div>
 
                     <div className="footer-list">
-                <Link to="/market" style={{textDecoration:'none' , color:'black'}}>
+                <Link to="/admissioncontact" style={{textDecoration:'none' , color:'black'}}>
                     <div className="cont-foot"> Facilities</div></Link>
                 </div>
         </div>
         <div className="footer-list-sm">
                 <div className="footer-list">
-                <Link to="/contact" style={{textDecoration:'none' , color:'black'}}>       <div className="cont-foot"> profile</div> </Link>
+                <Link to="/admissioncontact" style={{textDecoration:'none' , color:'black'}}>       <div className="cont-foot"> profile</div> </Link>
                 </div>
                 <div className="footer-list">
-                <Link to="/map"  style={{textDecoration:'none' , color:'black'}}>        <div className="cont-foot"> Courses</div> </Link>
+                <Link to="/admissioncontact"  style={{textDecoration:'none' , color:'black'}}>        <div className="cont-foot"> Courses</div> </Link>
                 </div>
             </div>
         </div>
@@ -94,11 +94,11 @@ const { x , y , movementX , movementY } = useMouse()
             <div className="footer-list-lg">
 
                 <div className="footer-list">
-                <Link to="/map"  style={{textDecoration:'none' , color:'black'}}>          <div className="cont-foot"> Faculty</div> </Link>
+                <Link to="/admissioncontact"  style={{textDecoration:'none' , color:'black'}}>          <div className="cont-foot"> Faculty</div> </Link>
                 </div>
 
                 <div className="footer-list">
-                <Link to="/offices" style={{textDecoration:'none' , color:'black'}}>
+                <Link to="/admissioncontact" style={{textDecoration:'none' , color:'black'}}>
                     <div className="cont-foot"> Admission Procedure</div></Link>
                 </div>
 
@@ -108,21 +108,21 @@ const { x , y , movementX , movementY } = useMouse()
 
             <div className="footer-list-sm">
                 <div className="footer-list">
-                <Link to="/projects" style={{textDecoration:'none' , color:'black'}}>         <div className="cont-foot"> Faculty </div> </Link>
+                <Link to="/admissioncontact" style={{textDecoration:'none' , color:'black'}}>         <div className="cont-foot"> Faculty </div> </Link>
                 </div>
                 <div className="footer-list">
-                <Link to="/market" style={{textDecoration:'none' , color:'black'}}>
+                <Link to="/admissioncontact" style={{textDecoration:'none' , color:'black'}}>
                     <div className="cont-foot"> Facilities</div></Link>
                 </div>
             </div>
         </div>
         <div className="row-footer-sm">
             <div className="footer-list">
-            <Link to="/ethics" style={{textDecoration:'none' , color:'black'}}><div className="cont-foot"> Fee Structure</div></Link>
+            <Link to="/admissioncontact" style={{textDecoration:'none' , color:'black'}}><div className="cont-foot"> Fee Structure</div></Link>
                     
             </div>
             <div className="footer-list">
-            <Link to="/offices" style={{textDecoration:'none' , color:'black'}}>
+            <Link to="/admissioncontact" style={{textDecoration:'none' , color:'black'}}>
                     <div className="cont-foot"> Admission Procedure</div></Link>
             </div>
         </div>

@@ -19,9 +19,9 @@ const Navbar = (props) => {
                 </div>
                 <div className="navbar-content">
                 <Link to="/" style={{textDecoration:'none'}}> <div className={ props.active === "home" ? "active-navbar-list" : "navbar-list" }style={{color:props.active === "home" ? active : primary}} >Home</div> </Link>
-                    <Link to="/profile" style={{textDecoration:'none'}}>  <div className={ props.active === "profile" ? "active-navbar-list" : "navbar-list" } style={{color:props.active === "profile" ? active : primary}}>Profile</div> </Link>
-                  <Link to="/reach" style={{textDecoration:'none'}}>  <div className={ props.active === "contact" ? "active-navbar-list" : "navbar-list" } style={{color:props.active === "contact" ? active : primary}}>Contact us</div> </Link>
-                  <Link to="/academics" style={{textDecoration:'none'}}> <div className={ props.active === "academics" ? "active-navbar-list" : "navbar-list" } style={{color:props.active === "academics" ? active : primary}}>Academics</div> </Link>
+                    <Link to="/admForm" style={{textDecoration:'none'}}>  <div className={ props.active === "profile" ? "active-navbar-list" : "navbar-list" } style={{color:props.active === "profile" ? active : primary}}>Admission form</div> </Link>
+                  <Link to="/contact" style={{textDecoration:'none'}}>  <div className={ props.active === "contact" ? "active-navbar-list" : "navbar-list" } style={{color:props.active === "contact" ? active : primary}}>Contact us</div> </Link>
+                  <Link to="/syllabus" style={{textDecoration:'none'}}> <div className={ props.active === "academics" ? "active-navbar-list" : "navbar-list" } style={{color:props.active === "academics" ? active : primary}}>Syllabus</div> </Link>
                 </div>
             </div>
 
@@ -40,9 +40,9 @@ const Navbar = (props) => {
                     <div className={showPhoneMenu ? "phone-menu" : "hidden-menu" }>
                        { showPhoneMenu ? <div className="phone-menu-content">
                        <Link to="/" style={{textDecoration:'none'}}>     <div className="hamburger-phone-list" style={{color:primary}} >Home</div> </Link>
-                       <Link to="/Profile" style={{textDecoration:'none'}}>   <div className="hamburger-phone-list" style={{color:primary}}>Profile</div> </Link>
-                       <Link to="/reach" style={{textDecoration:'none'}}>    <div className="hamburger-phone-list" style={{color:primary}}>Contact us</div>  </Link>
-                       <Link to="/academics" style={{textDecoration:'none'}}>   <div className="hamburger-phone-list" style={{color:primary}}>Academics</div>    </Link>
+                       <Link to="/Profile" style={{textDecoration:'none'}}>   <div className="hamburger-phone-list" style={{color:primary}}>Admission form</div> </Link>
+                       <Link to="/contact" style={{textDecoration:'none'}}>    <div className="hamburger-phone-list" style={{color:primary}}>Contact us</div>  </Link>
+                       <Link to="/syllabus" style={{textDecoration:'none'}}>   <div className="hamburger-phone-list" style={{color:primary}}>Syllabus</div>    </Link>
                            
                         </div> : null }
 
