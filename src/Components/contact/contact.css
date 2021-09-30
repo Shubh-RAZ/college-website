@@ -101,11 +101,11 @@
     font-size: 20px;
   }
 
-  .contact_wrapper,
+  /* .contact_wrapper,
   .contact_wrapper2 {
     padding-left: 5%;
     padding-right: 5%;
-  }
+  } */
 
   .faq_wrapper {
     font-size: 20px;
@@ -133,5 +133,11 @@
 
   .form-start {
     border-top: 2px solid blue;
+  }
+
+  .contact_wrapper {
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: center;
   }
 }
