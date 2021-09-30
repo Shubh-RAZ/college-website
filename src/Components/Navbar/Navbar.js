@@ -40,7 +40,7 @@ const Navbar = (props) => {
                     <div className={showPhoneMenu ? "phone-menu" : "hidden-menu" }>
                        { showPhoneMenu ? <div className="phone-menu-content">
                        <Link to="/" style={{textDecoration:'none'}}>     <div className="hamburger-phone-list" style={{color:primary}} >Home</div> </Link>
-                       <Link to="/Profile" style={{textDecoration:'none'}}>   <div className="hamburger-phone-list" style={{color:primary}}>Admission form</div> </Link>
+                       <Link to="/admForm" style={{textDecoration:'none'}}>   <div className="hamburger-phone-list" style={{color:primary}}>Admission form</div> </Link>
                        <Link to="/contact" style={{textDecoration:'none'}}>    <div className="hamburger-phone-list" style={{color:primary}}>Contact us</div>  </Link>
                        <Link to="/syllabus" style={{textDecoration:'none'}}>   <div className="hamburger-phone-list" style={{color:primary}}>Syllabus</div>    </Link>
                            
