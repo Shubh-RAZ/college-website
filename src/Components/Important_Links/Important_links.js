@@ -1,8 +1,6 @@
-import { useState } from "react";
+import React, { useState } from 'react';
 import './Important_link.css'
 import { Link } from "react-router-dom";
-
-import React from 'react';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay, virtualize, bindKeyboard } from 'react-swipeable-views-utils';
 import { mod } from 'react-swipeable-views-core';
