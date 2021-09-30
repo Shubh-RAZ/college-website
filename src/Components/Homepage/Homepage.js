@@ -7,7 +7,7 @@ import './Homepage.css'
 import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
 import DirectorsNote from "../DirectorsNote/DirectorsNote"
-import { useState } from "react/cjs/react.development"
+import React, { useState } from 'react';
 import { Link } from "react-router-dom"
 import Important_Links from "../Important_Links/Important_links"
 // import Admission_open from "../../Assets/Admission_open"
