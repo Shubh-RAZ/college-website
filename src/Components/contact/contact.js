@@ -77,8 +77,8 @@ const Contact = () => {
                     
                     <div className="col-12 col-sm-6 col-lg-4 Contactdetails">
                         <p className="contactHead">Contact Details</p>
-                        <p>Phone No: 9835918989</p>
-                        <p>AVM Vdiyalaya Ashok nagar, <br />Kadru, Ranchi, Jharkhand (834002)</p>
+                        <p>Phone No: 8400736325 , 8423696325 </p>
+                        <p> AVM Karmanpur <br />Jila : Baklia , U.P – 277208</p>
 
                         <div className="col-12 form-input-contact">
                             <img src={FAQ} className="faq_pic"/>
@@ -91,9 +91,9 @@ const Contact = () => {
                             <img src={contactUS} className="contact_pic"/>
                         </div>
                         <p className="admhead">Admission Helpline No.</p>
-                        <p>Phone No: 9835918989</p>
-                        <p>Whatsapp : 900920900</p>
-                        <p>Email : abc@gmail.com</p>
+                        <p>Phone No: 8400736325 , 8299109673</p>
+                        <p>Whatsapp : 8400736325</p>
+                        <p>Email : enquiry.abscollege@gmail.com</p>
                     </div>
 
                     <div className="col-12 col-sm-12 col-lg-4 form-start">
@@ -157,7 +157,7 @@ const Contact = () => {
                             <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
                           </svg></span>}
                             </p>
-                            { ans1 && <p className="answers">Its open till end of august
+                            { ans1 && <p className="answers">It will be announced once official notice come 
                             </p>}
 
                             <p onClick={handleq2} className="questions">What are the facilities available?
@@ -183,7 +183,7 @@ const Contact = () => {
                             <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
                           </svg></span>}
                             </p>
-                            { ans3 && <p className="answers">Please go to this link
+                            { ans3 && <p className="answers">Online form will be available on our official webpage absuniversity.in
                             </p>}
 
                             <p onClick={handleq4} className="questions">Is the institute recognised by govt?
@@ -196,7 +196,7 @@ const Contact = () => {
                             <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
                           </svg></span>}
                             </p>
-                            { ans4 && <p className="answers">Yes it is
+                            { ans4 && <p className="answers">Yes , we are in affiliation with Jananayak Chandrashekhar University , Ballia 
                             </p>}
                         </div>
                         

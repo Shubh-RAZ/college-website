@@ -9,6 +9,7 @@ import History from './Components/LinksPage/OurHistory';
 import Principals_note from './Components/LinksPage/principals_note';
 import Purpose from './Components/LinksPage/purpose';
 import Library from './Components/LinksPage/LibraryInstructions';
+import Admission_Contact from './Components/Contacted_soon/admission_contact';
 
 function App() {
   return (
@@ -24,8 +25,9 @@ function App() {
         <Route path="/contact" exact  component = {Contact}></Route> 
         <Route path="/history" exact  component = {History}></Route> 
         <Route path="/principalsnote" exact  component = {Principals_note}></Route> 
-        <Route path="/purpose" exact  component = {Purpose}></Route> 
+        {/* <Route path="/purpose" exact  component = {Purpose}></Route>  */}
         <Route path="/Library" exact  component = {Library}></Route> 
+        <Route path="/admissioncontact" exact  component = {Admission_Contact}></Route> 
       </Switch>
     </div>
   );

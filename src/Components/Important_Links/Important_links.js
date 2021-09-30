@@ -22,10 +22,6 @@ const Important_Links = () => {
                 link:'/principalsnote'
             },
             {
-                title:'Our Purpose',
-                link:'/purpose'
-            },
-            {
               title:'Library Instructions',
               link:'/libraryinstructions'
           },

@@ -10,6 +10,7 @@ import DirectorsNote from "../DirectorsNote/DirectorsNote"
 import { useState } from "react/cjs/react.development"
 import { Link } from "react-router-dom"
 import Important_Links from "../Important_Links/Important_links"
+// import Admission_open from "../../Assets/Admission_open"
 
 const Homepage = () => {
 
@@ -42,6 +43,7 @@ const Homepage = () => {
                     <Link to="./admissionenquiry" >
                         <div className="poster-img">
                             <img src="./poster_eng.jpeg"></img>
+                            {/* <Admission_open></Admission_open> */}
                         </div> 
                     </Link>
             </div>

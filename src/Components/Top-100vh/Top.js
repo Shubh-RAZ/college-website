@@ -46,24 +46,26 @@ const Top_100vh = () => {
                         </div>
                         <SwipeableViews index={index} onChangeIndex={handleChangeIndex}>
                         <div className="pagination-content-box">
-                            <div className="pagination-heading">Campus</div>
-                            <div className="pagination-content">We give priority to the great ideas coming from all sides, I am with 'Awadh Vihar'.I welcome you to the College of Karmanparu, Ballia. It is an organization that deals with high standards and will meet all the standards.This teaching institute with its concern for quality teaching as well as for all round development of students. </div>
+                            <div className="pagination-heading">Our Purpose</div>
+                            <div className="pagination-content">    Avadh Bihar College Karmanpur with its high ideal gives assurance to meet the common standard of excellence in order to make a mark in the academic world. It is then to make a separate identity in this region through the  ( teaching system )
+and experienced teacher. And in order to maintain that trust, we have to work day and night. </div>
                         </div>
                      
                         <div className="pagination-content-box">
-                            <div className="pagination-heading">Campus</div>
-                            <div className="pagination-content">Situated in a lush green, unspoiled, sunny environment, this college has a well-equipped, qualified, experienced lecturer and well-equipped laboratory in our organization. It is equipped
-                            with computer and playing facilities with huge study and internet facility. The vehicle will be given.
-                            We will provide a platform to the students to achieve not only education but also co-workers and
-                            excellence in education. </div>
+                            <div className="pagination-heading">Our Purpose</div>
+                            <div className="pagination-content">But
+one day the result of this effort is found in the form of people's unbelief, people's faith. There is a
+parallel. The constant interaction with the worthy concomitant thoughts and positive thinking will
+intensify and raise the flag of the money that people in this area look at this organization with
+great respect and respect. </div>
                         </div>
                      
                         <div className="pagination-content-box">
-                            <div className="pagination-heading">Campus</div>
-                            <div className="pagination-content"> We invite everyone open to new ideas and suggestions that can connect students and students in
-our college on an £-based basis. I welcome young students and wish them success as a responsible
-and valuable citizen. I can't believe that if you stay and study in our college, it's always worth the
-money for you. </div>
+                            <div className="pagination-heading">Our Purpose</div>
+                            <div className="pagination-content"> . Upcoming newcomer students want to attract students in upcoming
+future with best means of sports , best system of reading , learning lessons , their students and their
+students' appreciation from other students Will create a level of trust from the root . We are here to fulfill
+their faith.  </div>
                         </div>
                      
                         </SwipeableViews>
