@@ -35,10 +35,15 @@
 
 .directors-message {
   letter-spacing: 2px;
+  border: 3px solid #ee5332;
+  padding-bottom: 50px;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
 }
 
 .directors-signature {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .directors-signature-img {
   width: 100px;
