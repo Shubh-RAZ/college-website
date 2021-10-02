@@ -24,8 +24,8 @@ const Important_Links = () => {
               link:'/libraryinstructions'
           },
             {
-                title:'our guidlines',
-                link:'/guidlines'
+                title:'our guidelines',
+                link:'/guidelines'
             },
             {
                 title:'Admission norms',

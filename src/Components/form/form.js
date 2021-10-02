@@ -5,6 +5,8 @@ import '../../../node_modules/react-toastify/dist/ReactToastify.css'
 import { toast } from 'react-toastify'
 import adm from './admBck.png'
 import './form.css'
+import Footer from '../Footer/Footer';
+import Navbar from '../Navbar/Navbar';
 
 const Form = () => {
 
@@ -59,6 +61,7 @@ const Form = () => {
         <React.Fragment>
             <ToastContainer></ToastContainer>
             <div className="container-fluid form-super">
+                <Navbar />
                 <img src={adm} className="bck-form" />
                 <div className="col-12 form-head">Admission Form 2021-22</div>
                 <div className="row form_wrapper">    
@@ -124,6 +127,7 @@ const Form = () => {
 
                 </div>
             </div>
+            <Footer />
         </React.Fragment>
     );
 }

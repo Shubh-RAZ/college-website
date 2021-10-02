@@ -3,6 +3,7 @@ import SwipeableViews from 'react-swipeable-views';
 
 import Comma_bottom from '../../Assets/comma-bottom'
 import Comma_top from '../../Assets/comma-top'
+import bck from './bck.png'
 import './Top.css'
 const Top_100vh = () => {
 
@@ -74,7 +75,7 @@ their faith.  </div>
                 </div>
 
                 <div className="right-content">
-                    <img className="right-img" src="./girl.png"></img>
+                    <img className="right-img" src={bck}></img>
                 </div>
             </div>
         </div>

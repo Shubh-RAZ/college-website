@@ -10,6 +10,7 @@ import DirectorsNote from "../DirectorsNote/DirectorsNote"
 import React, { useState } from 'react';
 import { Link } from "react-router-dom"
 import Important_Links from "../Important_Links/Important_links"
+import Carousal from "../carousal/carousal"
 // import Admission_open from "../../Assets/Admission_open"
 
 const Homepage = () => {
@@ -22,10 +23,12 @@ const Homepage = () => {
         <div className="Homepage"  >
             <Navbar active="home"></Navbar>
             <Top_100vh></Top_100vh>
+            <Carousal />
             <DirectorsNote></DirectorsNote>
             <News></News>
             <Important_Links></Important_Links>
-            <Courses></Courses>
+            
+                    <Courses></Courses>
             {/* <Announcement></Announcement> */}
             {/* <Campus_life></Campus_life> */}
             <div className="home-footer">
@@ -40,7 +43,7 @@ const Homepage = () => {
                     setHome(true)
                 }}>X</div>
                 {/* <div className="language">{language}</div> */}
-                    <Link to="./admissionenquiry" >
+                    <Link to="./admForm" >
                         <div className="poster-img">
                             <img src="./poster_eng.jpeg"></img>
                             {/* <Admission_open></Admission_open> */}

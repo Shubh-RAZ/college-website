@@ -6,6 +6,8 @@ import { toast } from 'react-toastify'
 import contactUS from './contactusImg.png'
 import FAQ from './faq.png'
 import './contact.css';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 const Contact = () => {
 
@@ -69,7 +71,7 @@ const Contact = () => {
             <ToastContainer></ToastContainer>
             <div className="container">
                 <div className="row contact_wrapper">
-
+                    <Navbar />
                     <div className="col-12">
                         <p className="head1cu">Our Campuses</p>
                         <p className="head2cu">Atal bihari mahavidyalaya, kanpur</p>
@@ -202,8 +204,8 @@ const Contact = () => {
                         
                     </div>
                 </div>
-                
-            </div>
+                </div>
+            <Footer />
         </React.Fragment>
      );
 }

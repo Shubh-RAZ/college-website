@@ -1,0 +1,23 @@
+.lp-head{
+    font-size: 30px;
+    border-bottom: 2px solid blue;
+    margin-bottom: 40px;
+    color: blue;
+}
+
+.lp-head-2{
+    font-size: 23px;
+    border-bottom: 2px solid blue;
+    margin-bottom: 40px;
+    color: blue;
+}
+
+.lp-desc{
+    font-size: 17px;
+    text-align: left;
+    padding: 0px 50px;
+}
+
+.link-wrapper{
+    background-color: antiquewhite;
+}
