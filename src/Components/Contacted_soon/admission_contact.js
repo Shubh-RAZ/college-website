@@ -8,7 +8,7 @@ const Admission_Contact = () => {
                     <Contact_soon></Contact_soon>
                 </div>
                 <div className="contact-query">
-                    <div className="message-soon">You Will be Conatcted Soon by our Admission cell</div>
+                    <div className="message-soon">Hit us with your email to resolve your queries</div>
                     <div className="email-query">
                         <div className="email-soon">Drop us email at :</div>
                         <div className="email-soon-detail">enquiry.abscollege@gmail.com</div>
