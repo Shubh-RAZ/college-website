@@ -74,13 +74,13 @@ const Contact = () => {
                     <Navbar />
                     <div className="col-12">
                         <p className="head1cu">Our Campuses</p>
-                        <p className="head2cu">Atal bihari mahavidyalaya, kanpur</p>
+                        <p className="head2cu">Awadh Bihari Singh mahavidyalaya, karmanpur</p>
                     </div>
                     
                     <div className="col-12 col-sm-6 col-lg-4 Contactdetails">
                         <p className="contactHead">Contact Details</p>
                         <p>Phone No: 8400736325 , 8423696325 </p>
-                        <p> AVM Karmanpur <br />Jila : Baklia , U.P – 277208</p>
+                        <p>Karmanpur <br />Jila : Ballia , U.P – 277208</p>
 
                         <div className="col-12 form-input-contact">
                             <img src={FAQ} className="faq_pic"/>
