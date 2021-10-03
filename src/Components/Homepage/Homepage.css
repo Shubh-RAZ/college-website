@@ -11,6 +11,9 @@
   /* border: 2px solid red; */
 }
 
+.phone-poster {
+  display: none;
+}
 .news-events {
   border: 2px solid green;
   width: fit-content;
@@ -69,4 +72,14 @@
   border-left-style: none;
   border-right-style: none;
   border-top-style: none;
+}
+
+@media (max-width: 650px) {
+  .phone-poster {
+    display: block;
+  }
+
+  .desktop-poster {
+    display: none;
+  }
 }

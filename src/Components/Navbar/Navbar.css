@@ -150,7 +150,10 @@
     bottom: 7px;
   }
 }
-
+.logo-awadh {
+  width: 150px;
+  height: 150px;
+}
 @media (max-width: 450px) {
   .hamburger {
     right: 5vw;

@@ -16,7 +16,7 @@ const Navbar = (props) => {
             <div className="navbar-desktop">
                 <div className="logo-nav">
                     {/* <Logo></Logo> */}
-                    <img src="./logo2.png"></img>
+                    <img src="./logo-new.png" className="logo-awadh"></img>
                 </div>
                 <div className="navbar-content">
                 <Link to="/" style={{textDecoration:'none'}}> <div className={ props.active === "home" ? "active-navbar-list" : "navbar-list" }style={{color:props.active === "home" ? active : primary}} >Home</div> </Link>
@@ -29,7 +29,7 @@ const Navbar = (props) => {
             <div className="navbar-phone">
                 <div className="logo-nav-phone">
                         {/* <Logo></Logo> */}
-                        <img src="./logo2.png"></img>
+                        <img src="./logo-new.png" className="logo-awadh"></img>
                     </div>
                 </div>
 

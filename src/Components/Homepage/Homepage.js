@@ -45,7 +45,8 @@ const Homepage = () => {
                 {/* <div className="language">{language}</div> */}
                     <Link to="./admForm" >
                         <div className="poster-img">
-                            <img src="./poster_eng.jpeg"></img>
+                            <img src="./poster_eng.jpeg" className="desktop-poster"></img>
+                            <img src="./poster-phone.jpeg" className="phone-poster"></img>
                             {/* <Admission_open></Admission_open> */}
                         </div> 
                     </Link>
