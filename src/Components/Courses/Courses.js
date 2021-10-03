@@ -9,31 +9,31 @@ const Courses = () => {
     const courseData = [ 
         {
             name:"Hindi ( Hindi )",
-            detail:""
+            detail:"Hindi or more precisely Modern Standard Hindi is an Indo-Aryan language spoken chiefly in North India. Hindi has been described as a standardised and Sanskritised register of the Hindustani language"
         },
         {
             name:"History ( Prachine itihas )",
-            detail:""
+            detail:"History is an umbrella term comprising past events as well as the memory, discovery, collection, organization, presentation, and interpretation of these events."
         },
         {
             name:"Sociology (Samaj Shastra )",
-            detail:""
+            detail:"Sociology is a social science that focuses on society, human social behaviour, patterns of social relationships, social interaction, and aspects of culture associated with everyday life"
         },
         {
             name:"Political Science ( Rajnitishstra )",
-            detail:""
+            detail:"Political science is the scientific study of politics. It is a social science dealing with systems of governance and power, and the analysis of political activities, political thought, political behavior, and associated constitutions and laws"
         },
         {
             name:"Geography ( Bugol )",
-            detail:""
+            detail:"Geography is a field of science devoted to the study of the lands, features, inhabitants, and phenomena of the Earth and planets."
         },
         {
             name:"Home Science ( Grahvigyan )",
-            detail:""
+            detail:"Home science is a vast field where the student can learn about nutrition, resources, home management, hygiene, general health, effective communication skills, ethics, clothing and textile management."
         },
         {
             name:"Pedagogy ( Shikhshashastra )",
-            detail:""
+            detail:"Pedagogy, most commonly understood as the approach to teaching, is the theory and practice of learning, and how this process influences, and is influenced by, the social, political and psychological development of learners. "
         }
     ]
 
@@ -82,7 +82,7 @@ const Courses = () => {
                            <div>
                                <div className="course-title">{dt.name}</div>
                                <div className="course-desc">
-                               Lorem Ipsum is simply dummy text of the printin and typesetting industry. Lorem Ipsum has been the industry's s orem Ipsum is s
+                         {dt.detail}
                                </div>
                            </div>
                        </div>
