@@ -30,7 +30,7 @@ const DirectorsNote = () => {
                         I wish
                     </div>
                     <div className="directors-signature">
-                        <div className="directors-name">Sunil , Awadh Bihar</div>
+                        <div className="directors-name">Sunil Singh,Director Awadh Bihar</div>
                         <div className="directors-signature-img">
                             <img src="./sign.png"></img>
                         </div>
