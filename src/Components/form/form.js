@@ -35,6 +35,15 @@ const Form = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
+        setName("");
+        setPhone("")
+        setSubject('')
+        setAddress('')
+        setGender('')
+        setfName('')
+        setmName('')
+        setDob('')
+
         const data = {
             name_ : name,
             fname_ : fname,
@@ -68,56 +77,56 @@ const Form = () => {
                     <div className="col-md-6 col-12 form-input-adm">
                         <div class="form-group">
                             <label for="name_">Student's Name</label>
-                            <input type="text" class="form-control" id="name_" placeholder="Your name"  onChange={handleChange} name="name"/>
+                            <input type="text" class="form-control" value={name} id="name_" placeholder="Your name"  onChange={handleChange} name="name"/>
                         </div>
                     </div>
 
                     <div className="col-md-6 col-12 form-input-adm">
                         <div class="form-group">
                             <label for="fname_">Father's Name</label>
-                            <input type="text" class="form-control" id="fname_" placeholder="Father's name"  onChange={handleChange} name="fname"/>
+                            <input type="text" class="form-control" id="fname_" value={fname} placeholder="Father's name"  onChange={handleChange} name="fname"/>
                         </div>
                     </div>
 
                     <div className="col-md-6 col-12 form-input-adm">
                         <div class="form-group">
                             <label for="mname_">Mother's Name</label>
-                            <input type="text" class="form-control" id="mname_" placeholder="Mother's name"  onChange={handleChange} name="mname"/>
+                            <input type="text" class="form-control" id="mname_" placeholder="Mother's name" value={mname}  onChange={handleChange} name="mname"/>
                         </div>
                     </div>
 
                     <div className="col-md-6 col-12 form-input-adm">
                         <div class="form-group">
                             <label for="dob_">Date of birth</label>
-                            <input type="date" class="form-control" id="dob_" placeholder="Date of birth"  onChange={handleChange} name="dob"/>
+                            <input type="date" class="form-control" id="dob_" placeholder="Date of birth" value={dob} onChange={handleChange} name="dob"/>
                         </div>
                     </div>
 
                     <div className="col-md-6 col-12 form-input-adm">
                         <div class="form-group">
                             <label for="gender_">Gender</label>
-                            <input type="text" class="form-control" id="gender_" placeholder="Gender"  onChange={handleChange} name="gender"/>
+                            <input type="text" class="form-control" id="gender_" placeholder="Gender" value={gender} onChange={handleChange} name="gender"/>
                         </div>
                     </div>
 
                     <div className="col-md-6 col-12 form-input-adm">
                         <div class="form-group">
                             <label for="subject_">Subject</label>
-                            <input type="text" class="form-control" id="subject_" placeholder="Subject"  onChange={handleChange} name="subject"/>
+                            <input type="text" class="form-control" id="subject_" placeholder="Subject" value={subject} onChange={handleChange} name="subject"/>
                         </div>
                     </div>
 
                     <div className="col-md-6 col-12 form-input-adm">
                         <div class="form-group">
                             <label for="phone_">Phone no.</label>
-                            <input type="text" class="form-control" id="phone_" placeholder="Phone no."  onChange={handleChange} name="phone"/>
+                            <input type="text" class="form-control" id="phone_" placeholder="Phone no." value={phone} onChange={handleChange} name="phone"/>
                         </div>
                     </div>
 
                     <div className="col-md-6 col-12 form-input-adm">
                         <div class="form-group">
                             <label for="address_">Address</label>
-                            <input type="text" class="form-control" id="address_" placeholder="Address"  onChange={handleChange} name="address"/>
+                            <input type="text" class="form-control" id="address_" placeholder="Address" value={address} onChange={handleChange} name="address"/>
                         </div>
                     </div>
 

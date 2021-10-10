@@ -37,7 +37,13 @@ const Contact = () => {
     }
 
     const handleSubmit = (e) => {
-        e.preventDefault();
+        // e.preventDefault();
+
+        setName('')
+        setPhone('')
+        setEmail('')
+        setMsg('')
+        setSub('')
 
         if(name.length == 0 || email.length == 0 || phone.length == 0 || msg.length == 0 || sub.length == 0)alert("Please fill all details!");
         else{
@@ -102,14 +108,14 @@ const Contact = () => {
                         <div className="col-12 form-input-contact">
                             <div class="form-group">
                                 <label for="name_">Name</label>
-                                <input type="text" class="form-control" id="name_" placeholder="Your name"  onChange={handleChange} name="name"/>
+                                <input type="text" class="form-control" id="name_" placeholder="Your name" value={name} onChange={handleChange} name="name"/>
                             </div>
                         </div>
 
                         <div className="col-12 form-input-contact">
                             <div class="form-group">
                                 <label for="email">Email address</label>
-                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email"  onChange={handleChange} name="email"/>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" value={email} placeholder="Enter email"  onChange={handleChange} name="email"/>
                                 <small id="emailHelp" class="form-text text-muted">You will be contacted on the same email*</small>
                             </div>
                         </div>
@@ -117,7 +123,7 @@ const Contact = () => {
                         <div className="col-12 form-input-contact">
                             <div class="form-group">
                                 <label for="phoneno">Phone No.</label>
-                                <input type="text" class="form-control" id="phoneno" aria-describedby="phoneHelp" placeholder="Enter phone no"  onChange={handleChange} name="phone"/>
+                                <input type="text" class="form-control" id="phoneno" value={phone} aria-describedby="phoneHelp" placeholder="Enter phone no"  onChange={handleChange} name="phone"/>
                                 <small id="phoneHelp" class="form-text text-muted">You will be contacted on the same phone no.*</small>
                             </div>
                         </div>
@@ -125,14 +131,14 @@ const Contact = () => {
                         <div className="col-12 form-input-contact">
                             <div class="form-group">
                                 <label for="sub">Doubt regarding</label>
-                                <input type="text" class="form-control" id="sub" onChange={handleChange} name="sub"/>
+                                <input type="text" class="form-control" id="sub" value={sub} onChange={handleChange} name="sub"/>
                             </div>
                         </div>
                         
                         <div className="col-12 form-input-contact">
                             <div class="form-group">
                                 <label for="msg_">Message/Doubt</label>
-                                <textarea type="text" class="form-control" id="msg_" rows="5" onChange={handleChange} name="msg"/>
+                                <textarea type="text" class="form-control" id="msg_" rows="5" value={msg} onChange={handleChange} name="msg"/>
                             </div>
                         </div>
 
