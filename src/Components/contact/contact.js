@@ -50,7 +50,7 @@ const Contact = () => {
             };
 
             
-            axios.post('http://localhost:7000/services/enqMail' ,data)
+            axios.post('https://college-backend001.herokuapp.com/services/enqMail' ,data)
             .then((res) => {
                 toast(`you will be contacted soon`);
                 setName('');

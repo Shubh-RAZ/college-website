@@ -3,7 +3,7 @@ import axios from 'axios';
 import { ToastContainer } from 'react-toastify'
 import '../../../node_modules/react-toastify/dist/ReactToastify.css'
 import { toast } from 'react-toastify'
-import adm from './admBck.png'
+import adm from './bck.jpg'
 import './form.css'
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
@@ -47,7 +47,7 @@ const Form = () => {
         }
 
 
-        axios.post('http://localhost:7000/services/admMail' ,data)
+        axios.post(' https://college-backend001.herokuapp.com/services/admMail' ,data)
             .then((res) => {
                 toast(`you will be contacted soon`);
             })

@@ -19,7 +19,7 @@ const Homepage = () => {
     const [ language , setLanguage ] = useState('English')
 
     return (  
-        showHome ?
+        showHome ? 
         <div className="Homepage"  >
             <Navbar active="home"></Navbar>
             <Top_100vh></Top_100vh>
@@ -34,9 +34,8 @@ const Homepage = () => {
             <div className="home-footer">
                 <Footer></Footer>
             </div>
-         
-        </div>
-        : 
+    </div>
+        :
         <div className="poster">
             <div className="inside-poster">
                 <div className="cancel-btn-poster" onClick={ () => {
@@ -45,8 +44,8 @@ const Homepage = () => {
                 {/* <div className="language">{language}</div> */}
                     <Link to="./admForm" >
                         <div className="poster-img">
-                            <img src="./poster_eng.jpeg" className="desktop-poster"></img>
-                            <img src="./poster-phone.jpeg" className="phone-poster"></img>
+                            <img src="./poster_eng.jpg" className="desktop-poster"></img>
+                            <img src="./poster-phone.jpg" className="phone-poster"></img>
                             {/* <Admission_open></Admission_open> */}
                         </div> 
                     </Link>
